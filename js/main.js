@@ -14,7 +14,7 @@ $(document).ready(function(){
 
 
 
-var api_key = ''; // Use Api Key from your mongoLab database
+var api_key = '5xXlwkZE5x5bime-p_jzYgw3XMpRu-71'; // Use Api Key from your mongoLab database
 
 function getTasks(){
 	$.get( "https://api.mongolab.com/api/1/databases/task_manager/collections/tasks?apiKey="+api_key, function( data ) {
